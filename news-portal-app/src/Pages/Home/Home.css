@@ -1,0 +1,31 @@
+.animated{
+    color: white;
+    font-size: 2rem;
+    /* font-family: 'Poppins', sans-serif; */
+    /* font-family: 'Roboto Slab', serif; */
+    font-family: 'Supermercado One', cursive;
+    display: inline-block;
+    animation-name: blink;
+    animation-duration: 6s;
+    animation-delay: 2s;
+    position: relative;
+    padding: 0 30px;
+    margin: 5px;
+    border-radius: 10px;
+
+    
+}
+
+@keyframes blink{
+    0%   {background-color:blue; left:0px; top:0px;}
+    25%  {transform: rotateX(20deg); transition: cubic-bezier(0.075, 0.82, 0.165, 1);}
+}
+
+h2{
+    font-family: 'Supermercado One', cursive;    
+}
+hr{
+    color: white;
+    margin-left: -50%;
+    padding: -10px;
+}
